@@ -1,0 +1,18 @@
+{
+  "name": "25watts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-compile":"sass  dev/styles/sass/style.scss dev/styles/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.38.0"
+  }
+}

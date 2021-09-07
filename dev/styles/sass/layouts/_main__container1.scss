@@ -1,0 +1,41 @@
+.main__container1{
+    width: 100%;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224,117,47);
+    background: linear-gradient(90deg, rgba(224,117,47,1) 2%, rgba(255,255,255,1) 2%);
+    .main__container1__text{
+        .main__container__title{
+            h2{
+                font-family: $font-secundary;
+                font-size: 2.43em;
+                color:$color-text-secundary;
+            }
+            span{
+                font-size: 2.43rem;
+                color:$color-primary;
+            }
+        }
+        .main__container__p{
+            width:768px;
+            height: 197px;
+            p{
+                font-family: $font-primary;
+                font-size: 1em;
+                letter-spacing:$letter-spacing;
+                line-height: $line-height;
+                color: $color-text-secundary;
+
+            }
+
+            
+        }
+    
+
+    }
+}
+
+
