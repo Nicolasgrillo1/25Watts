@@ -1,3 +1,6 @@
+//import vendors
+@import "../sass/vendors/bootstrap";
+
 //import utilities
 @import "utilities/colours";
 @import "utilities/data";
@@ -19,7 +22,4 @@
 @import "layouts/main__container4";
 @import "layouts/forms";
 
-//import vendors
-@import "vendors/bootstrap";
-@import "vendors/jquery-ui";
 

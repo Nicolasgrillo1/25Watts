@@ -1,48 +1,53 @@
 .main__container2{
-    background: rgb(242,244,241);
-    background: linear-gradient(90deg, rgba(242,244,241,1) 80%, rgba(220,225,218,1) 80%);
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 768px;
+    // background: rgb(242,244,241);
+    // background: linear-gradient(90deg, rgba(242,244,241,1) 80%, rgba(220,225,218,1) 80%);
 }
 
 .main__container2__center{
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 100vh;
-    display: flex;
+    // background-color: #000;
     background: url(/25Watts/public/assets/img/section3-image.png) no-repeat center;
+    display: flex;
+    flex-direction: column-reverse;
+    min-width:966px;
+    min-height: 352px;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     .main__container2__center__content{
-        margin-top: 250px;
-        margin-left: 476px;
+        margin-top: 15.625rem;
         background: $color-primary 0% 0% no-repeat padding-box;
-        width: 491px;
-        height: 304px;
+        width: 30.6875rem;
+        height: 19rem;
         background-color: $color-primary;
-        justify-content: center;
-        align-items: center;
         h3{
-            margin-top: 68px;
-            margin-left: 50px;
-            font-size: 16px;
-            letter-spacing: 0.22px;
+            margin-top: 4.25rem;
+            margin-left: 3.125rem;
+            font-size: 1rem;
+            letter-spacing: 0.0138rem;
             color:$color-text-primary;
             font-family: $font-secundary; 
         }
         span{
-            margin-top: 68px;
-            margin-left: 50px;
+            margin-top: 4.25rem;
+            margin-left: 3.125rem;
             color: $color-text-primary;
             font-family: $font-secundary;
-            font-size: 39px;            
+            font-size: 2.4375rem;            
         }
         p{
-            margin-top: 28px;
-            margin-left: 50px;
+            margin-top: 1.75rem;
+            margin-left: 3.125rem;
             color: $color-text-primary;
             font-family: $font-primary;
-            font-size: 16px;
-            letter-spacing: 0.22px;
+            font-size: 1rem;
+            letter-spacing: 0.0138rem;
         }
 
 

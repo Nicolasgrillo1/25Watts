@@ -21,9 +21,11 @@
             }
         }
         .header__navbar__links{
+            display: flex;
+            gap: 1.25rem;
             align-items: center;
             flex-wrap: wrap;
-            margin-right: 101px;
+            margin-right: 6.3125rem;
             a{
                 font-size: 1em;
                 color:$color-secundary;
@@ -31,20 +33,6 @@
                 text-decoration: none;
                 
             }
-            ul{
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 1.875em;
-                li{
-                    &:hover{
-                        border-bottom: 2px solid $color-primary;
-                    }
-                    
-                }
-       
-            }
-            
         }
         
     }
