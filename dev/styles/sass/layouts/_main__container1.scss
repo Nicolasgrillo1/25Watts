@@ -1,6 +1,6 @@
 .main__container1{
     width: 100%;
-    height: 672px;
+    height: 42rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,10 @@
     background: rgb(224,117,47);
     background: linear-gradient(90deg, rgba(224,117,47,1) 2%, rgba(255,255,255,1) 2%);
     .main__container1__text{
-        .main__container__title{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .main__container1__title{
             h2{
                 font-family: $font-secundary;
                 font-size: 2.43em;
@@ -19,12 +22,13 @@
                 color:$color-primary;
             }
         }
-        .main__container__p{
-            width:768px;
-            height: 197px;
+        .main__container1__p{
+            max-width:48rem;
+            height: 12.3125rem;
             p{
+                width: 48rem;
                 font-family: $font-primary;
-                font-size: 1em;
+                
                 letter-spacing:$letter-spacing;
                 line-height: $line-height;
                 color: $color-text-secundary;
@@ -37,5 +41,6 @@
 
     }
 }
+
 
 

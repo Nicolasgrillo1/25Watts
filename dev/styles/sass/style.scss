@@ -1,11 +1,18 @@
-//import vendors
-@import "../sass/vendors/bootstrap";
 
-//import utilities
+
+//import root
 @import "utilities/colours";
-@import "utilities/data";
 @import "utilities/fonts";
-@import "utilities/mixins";
+
+//import vendors
+.carousel-control-prev-icon {
+  background-image: url(/25Watts/public/assets/img/Icon\ feather-arrow-left-circle.svg);
+}
+.carousel-control-next-icon {
+  background-image: url(/25Watts/public/assets/img/Icon\ feather-arrow-right-circle.svg);
+}
+
+@import "../sass/vendors/bootstrap";
 
 //import layouts
 
@@ -22,4 +29,7 @@
 @import "layouts/main__container4";
 @import "layouts/forms";
 
+// import utilities
+@import "utilities/mixins";
+@import "utilities/data";
 
